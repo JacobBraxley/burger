@@ -1,0 +1,27 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "A social app",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js",
+    "html": "node htmlRoutes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobBraxley/friendfinder"
+  },
+  "keywords": [
+    "friendfinder"
+  ],
+  "author": "Jacob Braxley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JacobBraxley/friendfinder/issues"
+  },
+  "homepage": "https://github.com/JacobBraxley/friendfinder#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
