@@ -1,7 +1,7 @@
 {
-  "name": "friendfinder",
+  "name": "burger",
   "version": "1.0.0",
-  "description": "A social app",
+  "description": "A handlebar app",
   "main": "server.js",
   "scripts": {
     "test": "node server.js",
@@ -10,18 +10,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JacobBraxley/friendfinder"
+    "url": "git+https://github.com/JacobBraxley/burger"
   },
   "keywords": [
-    "friendfinder"
+    "burger"
   ],
   "author": "Jacob Braxley",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JacobBraxley/friendfinder/issues"
+    "url": "https://github.com/JacobBraxley/burger/issues"
   },
-  "homepage": "https://github.com/JacobBraxley/friendfinder#readme",
+  "homepage": "https://github.com/JacobBraxley/burger#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.17.1"
   }
 }
