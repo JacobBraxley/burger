@@ -8,7 +8,7 @@ const connection = new Client({
   ssl: true,
 });
 
-// connection.connect();
+connection.connect();
 // const connection = mysql.createConnection({
 //   host: process.env.HOSTNAME || "ec2-50-19-114-27.compute-1.amazonaws.com",
 //   port: process.env.PORT || 5432,
