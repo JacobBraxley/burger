@@ -39,15 +39,15 @@ const orm = {
       if (err) {
         throw err;
       }
-      console.log(result);
+      //Just result when using mysql
       cb(result.rows);
     });
   },
   insertOne: function(table, cols, vals, cb) {
       console.log(vals);
-    const queryString = `INSERT INTO ${table} (${cols.toString()}) VALUES (${numQuestionMarks(vals.length)})`;
+    const queryString = `INSERT INTO ${table} (${cols.toString()}) VALUES ('${vals}')`;
     console.log(queryString);
-    connection.query(queryString, vals, function(err, result) {
+    connection.query(queryString, function(err, result) {
       if (err) {
         throw err;
       }
